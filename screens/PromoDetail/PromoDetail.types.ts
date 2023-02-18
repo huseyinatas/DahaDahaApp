@@ -1,5 +1,5 @@
 export type TPromoDetailStateProps = {
-    SeoName: string;
+  SeoName: string;
 };
 
 export type TPromoDetailDispatchProps = {};

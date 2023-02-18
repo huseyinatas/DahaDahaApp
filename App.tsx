@@ -28,7 +28,6 @@ export default function App() {
           },
         }}
       >
-
         <Tab.Screen
           name="KEŞFET"
           component={Home}
@@ -82,24 +81,24 @@ export default function App() {
             },
           }}
         />
-          <Tab.Screen
-              name="PromoDetail"
-              component={PromoDetail}
-              options={{
-                  tabBarLabelStyle: {
-                      display: "none"
-                  },
-                  tabBarItemStyle: {
-                      display: "none"
-                  },
-                  tabBarIconStyle: {
-                      display: "none"
-                  },
-                  tabBarStyle: {
-                      display: "none"
-                  }
-              }}
-          />
+        <Tab.Screen
+          name="PromoDetail"
+          component={PromoDetail}
+          options={{
+            tabBarLabelStyle: {
+              display: "none",
+            },
+            tabBarItemStyle: {
+              display: "none",
+            },
+            tabBarIconStyle: {
+              display: "none",
+            },
+            tabBarStyle: {
+              display: "none",
+            },
+          }}
+        />
       </Tab.Navigator>
     </NavigationContainer>
   );
